@@ -1,5 +1,5 @@
-# selftrainingdemos
-this projects demonstrates using of below technologies as a proof of concepts by developing restful APIs that can do CRUD operations
+# Spring Boot CRUD H2 DB
+This project demonstrates using of below technologies as a proof of concepts by developing restful APIs that can do CRUD operations
 
 Used Technologies:
 Spring Boot
