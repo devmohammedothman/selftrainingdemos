@@ -2,7 +2,6 @@ package com.selftraining.demo;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Stream;
 
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.boot.SpringApplication;

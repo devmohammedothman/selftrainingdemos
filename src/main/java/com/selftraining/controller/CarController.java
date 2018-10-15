@@ -45,7 +45,7 @@ public class CarController {
 		
 	}
 	
-	@RequestMapping (value = "/add-car", method = RequestMethod.POST,
+	@RequestMapping (value = "/secure/add-car", method = RequestMethod.POST,
 	consumes = MediaType.APPLICATION_JSON_UTF8_VALUE)
 	public ResponseEntity<ResponseDTO> addCar(@RequestBody CarDTO carObj)
 	{	 
@@ -83,7 +83,7 @@ public class CarController {
 		}
 	}
 	
-	@RequestMapping (value = "/update-car", method = RequestMethod.POST,
+	@RequestMapping (value = "/secure/update-car", method = RequestMethod.POST,
 			consumes = MediaType.APPLICATION_JSON_UTF8_VALUE)
 	public ResponseEntity<ResponseDTO> updateCar(@RequestBody CarDTO carObj)
 	{		
@@ -103,7 +103,7 @@ public class CarController {
 		}
 	}
 
-	@RequestMapping (value = "/delete-car", method = RequestMethod.POST,
+	@RequestMapping (value = "/secure/delete-car", method = RequestMethod.POST,
 			consumes = MediaType.APPLICATION_JSON_UTF8_VALUE)
 	public ResponseEntity<ResponseDTO> deleteCar(@RequestBody CarDTO carObj)
 	{		
