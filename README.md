@@ -1,6 +1,9 @@
 # Spring Boot CRUD H2 DB
 This project demonstrates using of below technologies as a proof of concepts by developing restful APIs that can do CRUD operations
 
+#URL 
+http://localhost:8080/angularspringh2jpa/demo/cool-cars
+
 Used Technologies:
 Spring Boot
 Spring Data JPA

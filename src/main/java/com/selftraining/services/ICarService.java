@@ -2,7 +2,7 @@ package com.selftraining.services;
 
 import java.util.List;
 
-import com.sleftraining.dto.CarDTO;
+import com.selftraining.dto.CarDTO;
 
 public interface ICarService 
 {

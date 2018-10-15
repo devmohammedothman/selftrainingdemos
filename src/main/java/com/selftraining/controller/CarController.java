@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.selftraining.dto.CarDTO;
+import com.selftraining.dto.ResponseDTO;
 import com.selftraining.services.ICarService;
-import com.sleftraining.dto.CarDTO;
-import com.sleftraining.dto.ResponseDTO;
 
 @RestController
 @RequestMapping("/demo")

@@ -8,9 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.selftraining.dao.ICarRepository;
+import com.selftraining.dto.CarDTO;
 import com.selftraining.model.Car;
 import com.selftraining.services.ICarService;
-import com.sleftraining.dto.CarDTO;
 
 @Service
 public class CarServiceImpl implements ICarService {

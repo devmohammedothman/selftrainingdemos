@@ -1,4 +1,4 @@
-package com.sleftraining.dto;
+package com.selftraining.dto;
 
 import java.io.Serializable;
 
