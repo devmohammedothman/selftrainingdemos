@@ -5,31 +5,49 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.validation.constraints.NotNull;
 
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-import lombok.ToString;
-
 @Entity
-@Setter @Getter
-@NoArgsConstructor
-@ToString @EqualsAndHashCode
 public class Car 
 {
 	@Id @GeneratedValue
+	private
 	int id;
 	@NotNull
-	String brand;
+	private String brand;
 	
-	String model;
+	private String model;
 	
-	String modelDetails;
+	private String modelDetails;
+	
+	public Car () {};
 	
 	public Car(String brand, String model, String modelDetails)
 	{
 		this.brand = brand;
 		this.model = model;
+		this.modelDetails = modelDetails;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getModel() {
+		return model;
+	}
+
+	public void setModel(String model) {
+		this.model = model;
+	}
+
+	public String getModelDetails() {
+		return modelDetails;
+	}
+
+	public void setModelDetails(String modelDetails) {
 		this.modelDetails = modelDetails;
 	}
 
