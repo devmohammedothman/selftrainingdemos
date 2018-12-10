@@ -1,0 +1,44 @@
+{
+    "status": {
+        "statusCode": "Status.code.1000",
+        "statusMessageEN": "Successfully Done"
+    },
+    "data": [
+        {
+            "id": 1,
+            "brand": null,
+            "model": "250 GT California",
+            "modelDetails": "250 GT California"
+        },
+        {
+            "id": 2,
+            "brand": null,
+            "model": "XJ Saloon SWB",
+            "modelDetails": "XJ Saloon SWB"
+        },
+        {
+            "id": 3,
+            "brand": null,
+            "model": "Boxster",
+            "modelDetails": "Boxster"
+        },
+        {
+            "id": 4,
+            "brand": null,
+            "model": "Gallardo",
+            "modelDetails": "Gallardo"
+        },
+        {
+            "id": 5,
+            "brand": null,
+            "model": "Challenger",
+            "modelDetails": "Challenger"
+        },
+        {
+            "id": 6,
+            "brand": null,
+            "model": "Focus",
+            "modelDetails": ""
+        }
+    ]
+}

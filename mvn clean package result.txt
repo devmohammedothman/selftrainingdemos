@@ -1,0 +1,660 @@
+E:\Code Training WorkSpace\OthmanTempWorkSpace\angularspringh2jpa>mvn clean package
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ----------------< com.selftraining:angularspringh2jpa >-----------------
+[INFO] Building angularspringh2jpa 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:3.0.0:clean (default-clean) @ angularspringh2jpa ---
+[INFO] Deleting E:\Code Training WorkSpace\OthmanTempWorkSpace\angularspringh2jpa\target
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ angularspringh2jpa ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ angularspringh2jpa ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 11 source files to E:\Code Training WorkSpace\OthmanTempWorkSpace\angularspringh2jpa\target\classes
+[INFO] /E:/Code Training WorkSpace/OthmanTempWorkSpace/angularspringh2jpa/src/main/java/com/selftraining/conf/SecurityConfig.java:
+E:\Code Training WorkSpace\OthmanTempWorkSpace\angularspringh2jpa\src\main\java\com\selftraining\conf\SecurityConfig.java uses or o
+verrides a deprecated API.
+[INFO] /E:/Code Training WorkSpace/OthmanTempWorkSpace/angularspringh2jpa/src/main/java/com/selftraining/conf/SecurityConfig.java:
+Recompile with -Xlint:deprecation for details.
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ angularspringh2jpa ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory E:\Code Training WorkSpace\OthmanTempWorkSpace\angularspringh2jpa\src\test\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ angularspringh2jpa ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to E:\Code Training WorkSpace\OthmanTempWorkSpace\angularspringh2jpa\target\test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:2.21.0:test (default-test) @ angularspringh2jpa ---
+[INFO]
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running com.selftraining.demo.Angularspringh2jpaApplicationTests
+01:22:16.149 [main] DEBUG org.springframework.test.context.junit4.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor cal
+led with [class com.selftraining.demo.Angularspringh2jpaApplicationTests]
+01:22:16.158 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from clas
+s [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+01:22:16.169 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [publi
+c org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareConte
+xtLoaderDelegate)]
+01:22:16.193 [main] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [c
+om.selftraining.demo.Angularspringh2jpaApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBoo
+tstrapper]
+01:22:16.211 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration no
+r @ContextHierarchy found for test class [com.selftraining.demo.Angularspringh2jpaApplicationTests], using SpringBootContextLoader
+01:22:16.222 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location
+ for test class [com.selftraining.demo.Angularspringh2jpaApplicationTests]: class path resource [com/selftraining/demo/Angularsprin
+gh2jpaApplicationTests-context.xml] does not exist
+01:22:16.223 [main] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location
+ for test class [com.selftraining.demo.Angularspringh2jpaApplicationTests]: class path resource [com/selftraining/demo/Angularsprin
+gh2jpaApplicationTestsContext.groovy] does not exist
+01:22:16.224 [main] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locatio
+ns for test class [com.selftraining.demo.Angularspringh2jpaApplicationTests]: no resource found for suffixes {-context.xml, Context
+.groovy}.
+01:22:16.225 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default con
+figuration classes for test class [com.selftraining.demo.Angularspringh2jpaApplicationTests]: Angularspringh2jpaApplicationTests do
+es not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+01:22:16.282 [main] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring cl
+ass' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.selftraining.demo.Angularspringh2jpaAppli
+cationTests]
+01:22:16.295 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding PropertySource 'systemProperties' with lowest s
+earch precedence
+01:22:16.295 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding PropertySource 'systemEnvironment' with lowest
+search precedence
+01:22:16.296 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [
+MapPropertySource@1816089958 {name='systemProperties', properties={java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.libr
+ary.path=C:\Program Files\Java\jdk1.8.0_161\jre\bin, java.vm.version=25.161-b12, java.vm.vendor=Oracle Corporation, java.vendor.url
+=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=
+US, user.script=, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=, java.vm.specification.name=Java Virtual Machine Specificatio
+n, user.dir=E:\Code Training WorkSpace\OthmanTempWorkSpace\angularspringh2jpa, java.runtime.version=1.8.0_161-b12, basedir=E:\Code
+Training WorkSpace\OthmanTempWorkSpace\angularspringh2jpa, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dir
+s=C:\Program Files\Java\jdk1.8.0_161\jre\lib\endorsed, os.arch=amd64, surefire.real.class.path=C:\Users\MOHAMM~1\AppData\Local\Temp
+\surefire4005754645151987923\surefirebooter1546866531793814909.jar, java.io.tmpdir=C:\Users\MOHAMM~1\AppData\Local\Temp\, line.sepa
+rator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 10, sun.jnu.encoding=Cp1256, java.library.path=C:
+\Program Files\Java\jdk1.8.0_161\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\oraclexe\app\oracle\product\11.2
+.0\server\bin;;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\Wind
+owsPowerShell\v1.0\;C:\Program Files\MySQL\mysql-5.6.39-winx64\bin;C:\Program Files\nodejs\;C:\Program Files\apache-maven-3.5.3\bin
+;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\NVIDIA Corpora
+tion\PhysX\Common;C:\Program Files\TortoiseSVN\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users
+\Mohammed Othman\AppData\Local\GitHubDesktop\bin;C:\Users\Mohammed Othman\AppData\Roaming\npm;C:\Users\Mohammed Othman\AppData\Loca
+l\Microsoft\WindowsApps;;C:\Users\Mohammed Othman\AppData\Local\Programs\Microsoft VS Code\bin;., surefire.test.class.path=E:\Code
+Training WorkSpace\OthmanTempWorkSpace\angularspringh2jpa\target\test-classes;E:\Code Training WorkSpace\OthmanTempWorkSpace\angula
+rspringh2jpa\target\classes;C:\Users\Mohammed Othman\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.0.1.REL
+EASE\spring-boot-starter-data-jpa-2.0.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\boot\spring-boot-st
+arter\2.0.1.RELEASE\spring-boot-starter-2.0.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\boot\spring-b
+oot\2.0.1.RELEASE\spring-boot-2.0.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\boot\spring-boot-autoco
+nfigure\2.0.1.RELEASE\spring-boot-autoconfigure-2.0.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\boot\
+spring-boot-starter-logging\2.0.1.RELEASE\spring-boot-starter-logging-2.0.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\ch\
+qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\Mohammed Othman\.m2\repository\ch\qos\logback\logback-core\1.2
+.3\logback-core-1.2.3.jar;C:\Users\Mohammed Othman\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.10.0\log4j-to-slf4j-2.1
+0.0.jar;C:\Users\Mohammed Othman\.m2\repository\org\apache\logging\log4j\log4j-api\2.10.0\log4j-api-2.10.0.jar;C:\Users\Mohammed Ot
+hman\.m2\repository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;C:\Users\Mohammed Othman\.m2\repository\org\yaml\snakeyam
+l\1.19\snakeyaml-1.19.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.0.1.RELEASE\sp
+ring-boot-starter-aop-2.0.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\aspectj\aspectjweaver\1.8.13\aspectjweaver-1.8.
+13.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.0.1.RELEASE\spring-boot-starter-
+jdbc-2.0.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\com\zaxxer\HikariCP\2.7.8\HikariCP-2.7.8.jar;C:\Users\Mohammed Othma
+n\.m2\repository\org\springframework\spring-jdbc\5.0.5.RELEASE\spring-jdbc-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repositor
+y\org\hibernate\hibernate-core\5.2.16.Final\hibernate-core-5.2.16.Final.jar;C:\Users\Mohammed Othman\.m2\repository\org\jboss\loggi
+ng\jboss-logging\3.3.2.Final\jboss-logging-3.3.2.Final.jar;C:\Users\Mohammed Othman\.m2\repository\org\hibernate\javax\persistence\
+hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar;C:\Users\Mohammed Othman\.m2\repository\org\javassist\javas
+sist\3.22.0-GA\javassist-3.22.0-GA.jar;C:\Users\Mohammed Othman\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\Mohammed
+Othman\.m2\repository\org\jboss\jandex\2.0.3.Final\jandex-2.0.3.Final.jar;C:\Users\Mohammed Othman\.m2\repository\com\fasterxml\cla
+ssmate\1.3.4\classmate-1.3.4.jar;C:\Users\Mohammed Othman\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Mohammed Othman
+\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.0.1.Final\hibernate-commons-annotations-5.0.1.Final.jar;C:\Use
+rs\Mohammed Othman\.m2\repository\javax\transaction\javax.transaction-api\1.2\javax.transaction-api-1.2.jar;C:\Users\Mohammed Othma
+n\.m2\repository\org\springframework\data\spring-data-jpa\2.0.6.RELEASE\spring-data-jpa-2.0.6.RELEASE.jar;C:\Users\Mohammed Othman\
+.m2\repository\org\springframework\data\spring-data-commons\2.0.6.RELEASE\spring-data-commons-2.0.6.RELEASE.jar;C:\Users\Mohammed O
+thman\.m2\repository\org\springframework\spring-orm\5.0.5.RELEASE\spring-orm-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\reposit
+ory\org\springframework\spring-context\5.0.5.RELEASE\spring-context-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\s
+pringframework\spring-tx\5.0.5.RELEASE\spring-tx-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\spri
+ng-beans\5.0.5.RELEASE\spring-beans-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-
+1.7.25.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\spring-aspects\5.0.5.RELEASE\spring-aspects-5.0.5.RELEASE.ja
+r;C:\Users\Mohammed Othman\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.0.1.RELEASE\spring-boot-starter-web-2.
+0.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.0.1.RELEASE\spring-boot
+-starter-json-2.0.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.5\jackson-d
+atabind-2.9.5.jar;C:\Users\Mohammed Othman\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-
+2.9.0.jar;C:\Users\Mohammed Othman\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.5\jackson-core-2.9.5.jar;C:\Users\Moh
+ammed Othman\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.9.5\jackson-datatype-jdk8-2.9.5.jar;C:\Users\Moh
+ammed Othman\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.9.5\jackson-datatype-jsr310-2.9.5.jar;C:\Users
+\Mohammed Othman\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.9.5\jackson-module-parameter-names-2.
+9.5.jar;C:\Users\Mohammed Othman\.m2\repository\org\hibernate\validator\hibernate-validator\6.0.9.Final\hibernate-validator-6.0.9.F
+inal.jar;C:\Users\Mohammed Othman\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar;C:\User
+s\Mohammed Othman\.m2\repository\org\springframework\spring-web\5.0.5.RELEASE\spring-web-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman
+\.m2\repository\org\springframework\spring-webmvc\5.0.5.RELEASE\spring-webmvc-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\reposi
+tory\org\springframework\spring-expression\5.0.5.RELEASE\spring-expression-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repositor
+y\com\h2database\h2\1.4.197\h2-1.4.197.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\boot\spring-boot-starter-tom
+cat\2.0.1.RELEASE\spring-boot-starter-tomcat-2.0.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\javax\annotation\javax.annot
+ation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\Mohammed Othman\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\8.
+5.29\tomcat-embed-core-8.5.29.jar;C:\Users\Mohammed Othman\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\8.5.29\tomcat-emb
+ed-el-8.5.29.jar;C:\Users\Mohammed Othman\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.29\tomcat-embed-websock
+et-8.5.29.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.0.1.RELEASE\spring-boot-s
+tarter-test-2.0.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\boot\spring-boot-test\2.0.1.RELEASE\sprin
+g-boot-test-2.0.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.0.1
+.RELEASE\spring-boot-test-autoconfigure-2.0.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\com\jayway\jsonpath\json-path\2.4
+.0\json-path-2.4.0.jar;C:\Users\Mohammed Othman\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\Mohammed Othm
+an\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\Mohammed Othman\.m2\repository\org\ow2\asm\asm\5
+.0.4\asm-5.0.4.jar;C:\Users\Mohammed Othman\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Mohammed Othman\.m2\repository\
+org\assertj\assertj-core\3.9.1\assertj-core-3.9.1.jar;C:\Users\Mohammed Othman\.m2\repository\org\mockito\mockito-core\2.15.0\mocki
+to-core-2.15.0.jar;C:\Users\Mohammed Othman\.m2\repository\net\bytebuddy\byte-buddy\1.7.11\byte-buddy-1.7.11.jar;C:\Users\Mohammed
+Othman\.m2\repository\net\bytebuddy\byte-buddy-agent\1.7.11\byte-buddy-agent-1.7.11.jar;C:\Users\Mohammed Othman\.m2\repository\org
+\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\Mohammed Othman\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3
+.jar;C:\Users\Mohammed Othman\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\Mohammed Othman\.m
+2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar;C:\Users\Mohammed Othman\.m2\repository\com\vaadin\external\goog
+le\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframew
+ork\spring-core\5.0.5.RELEASE\spring-core-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\spring-jcl\
+5.0.5.RELEASE\spring-jcl-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\spring-test\5.0.5.RELEASE\sp
+ring-test-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\xmlunit\xmlunit-core\2.5.1\xmlunit-core-2.5.1.jar;C:\Users\
+Mohammed Othman\.m2\repository\org\springframework\boot\spring-boot-starter-security\2.0.1.RELEASE\spring-boot-starter-security-2.0
+.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\spring-aop\5.0.5.RELEASE\spring-aop-5.0.5.RELEASE.jar;C:
+\Users\Mohammed Othman\.m2\repository\org\springframework\security\spring-security-config\5.0.4.RELEASE\spring-security-config-5.0.
+4.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\security\spring-security-core\5.0.4.RELEASE\spring-securi
+ty-core-5.0.4.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\security\spring-security-web\5.0.4.RELEASE\sp
+ring-security-web-5.0.4.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\modelmapper\modelmapper\0.7.4\modelmapper-0.7.4.jar
+;, java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered
+Compilers, os.version=10.0, user.home=C:\Users\Mohammed Othman, user.timezone=Africa/Cairo, java.awt.printerjob=sun.awt.windows.WPr
+interJob, file.encoding=Cp1256, java.specification.version=1.8, java.class.path=E:\Code Training WorkSpace\OthmanTempWorkSpace\angu
+larspringh2jpa\target\test-classes;E:\Code Training WorkSpace\OthmanTempWorkSpace\angularspringh2jpa\target\classes;C:\Users\Mohamm
+ed Othman\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.0.1.RELEASE\spring-boot-starter-data-jpa-2.0.1.REL
+EASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\boot\spring-boot-starter\2.0.1.RELEASE\spring-boot-starter-2.0
+.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\boot\spring-boot\2.0.1.RELEASE\spring-boot-2.0.1.RELEASE
+.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.0.1.RELEASE\spring-boot-autoconfi
+gure-2.0.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.0.1.RELEASE\s
+pring-boot-starter-logging-2.0.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-c
+lassic-1.2.3.jar;C:\Users\Mohammed Othman\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\Mohammed
+ Othman\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.10.0\log4j-to-slf4j-2.10.0.jar;C:\Users\Mohammed Othman\.m2\reposi
+tory\org\apache\logging\log4j\log4j-api\2.10.0\log4j-api-2.10.0.jar;C:\Users\Mohammed Othman\.m2\repository\org\slf4j\jul-to-slf4j\
+1.7.25\jul-to-slf4j-1.7.25.jar;C:\Users\Mohammed Othman\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\Mohammed
+ Othman\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.0.1.RELEASE\spring-boot-starter-aop-2.0.1.RELEASE.jar;C:\
+Users\Mohammed Othman\.m2\repository\org\aspectj\aspectjweaver\1.8.13\aspectjweaver-1.8.13.jar;C:\Users\Mohammed Othman\.m2\reposit
+ory\org\springframework\boot\spring-boot-starter-jdbc\2.0.1.RELEASE\spring-boot-starter-jdbc-2.0.1.RELEASE.jar;C:\Users\Mohammed Ot
+hman\.m2\repository\com\zaxxer\HikariCP\2.7.8\HikariCP-2.7.8.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\spring
+-jdbc\5.0.5.RELEASE\spring-jdbc-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\hibernate\hibernate-core\5.2.16.Final
+\hibernate-core-5.2.16.Final.jar;C:\Users\Mohammed Othman\.m2\repository\org\jboss\logging\jboss-logging\3.3.2.Final\jboss-logging-
+3.3.2.Final.jar;C:\Users\Mohammed Othman\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate
+-jpa-2.1-api-1.0.0.Final.jar;C:\Users\Mohammed Othman\.m2\repository\org\javassist\javassist\3.22.0-GA\javassist-3.22.0-GA.jar;C:\U
+sers\Mohammed Othman\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\Mohammed Othman\.m2\repository\org\jboss\jandex\2.0.
+3.Final\jandex-2.0.3.Final.jar;C:\Users\Mohammed Othman\.m2\repository\com\fasterxml\classmate\1.3.4\classmate-1.3.4.jar;C:\Users\M
+ohammed Othman\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Mohammed Othman\.m2\repository\org\hibernate\common\hibern
+ate-commons-annotations\5.0.1.Final\hibernate-commons-annotations-5.0.1.Final.jar;C:\Users\Mohammed Othman\.m2\repository\javax\tra
+nsaction\javax.transaction-api\1.2\javax.transaction-api-1.2.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\data\s
+pring-data-jpa\2.0.6.RELEASE\spring-data-jpa-2.0.6.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\data\spr
+ing-data-commons\2.0.6.RELEASE\spring-data-commons-2.0.6.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\sp
+ring-orm\5.0.5.RELEASE\spring-orm-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\spring-context\5.0.
+5.RELEASE\spring-context-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\spring-tx\5.0.5.RELEASE\spri
+ng-tx-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\spring-beans\5.0.5.RELEASE\spring-beans-5.0.5.R
+ELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Mohammed Othman\.m2\rep
+ository\org\springframework\spring-aspects\5.0.5.RELEASE\spring-aspects-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\o
+rg\springframework\boot\spring-boot-starter-web\2.0.1.RELEASE\spring-boot-starter-web-2.0.1.RELEASE.jar;C:\Users\Mohammed Othman\.m
+2\repository\org\springframework\boot\spring-boot-starter-json\2.0.1.RELEASE\spring-boot-starter-json-2.0.1.RELEASE.jar;C:\Users\Mo
+hammed Othman\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.5\jackson-databind-2.9.5.jar;C:\Users\Mohammed Othman\
+.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\Mohammed Othman\.m2\repo
+sitory\com\fasterxml\jackson\core\jackson-core\2.9.5\jackson-core-2.9.5.jar;C:\Users\Mohammed Othman\.m2\repository\com\fasterxml\j
+ackson\datatype\jackson-datatype-jdk8\2.9.5\jackson-datatype-jdk8-2.9.5.jar;C:\Users\Mohammed Othman\.m2\repository\com\fasterxml\j
+ackson\datatype\jackson-datatype-jsr310\2.9.5\jackson-datatype-jsr310-2.9.5.jar;C:\Users\Mohammed Othman\.m2\repository\com\fasterx
+ml\jackson\module\jackson-module-parameter-names\2.9.5\jackson-module-parameter-names-2.9.5.jar;C:\Users\Mohammed Othman\.m2\reposi
+tory\org\hibernate\validator\hibernate-validator\6.0.9.Final\hibernate-validator-6.0.9.Final.jar;C:\Users\Mohammed Othman\.m2\repos
+itory\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar;C:\Users\Mohammed Othman\.m2\repository\org\spring
+framework\spring-web\5.0.5.RELEASE\spring-web-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\spring-
+webmvc\5.0.5.RELEASE\spring-webmvc-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\spring-expression\
+5.0.5.RELEASE\spring-expression-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\com\h2database\h2\1.4.197\h2-1.4.197.jar;
+C:\Users\Mohammed Othman\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.0.1.RELEASE\spring-boot-starter-tomca
+t-2.0.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.
+jar;C:\Users\Mohammed Othman\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\8.5.29\tomcat-embed-core-8.5.29.jar;C:\Users\
+Mohammed Othman\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\8.5.29\tomcat-embed-el-8.5.29.jar;C:\Users\Mohammed Othman\.
+m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.29\tomcat-embed-websocket-8.5.29.jar;C:\Users\Mohammed Othman\.m2\
+repository\org\springframework\boot\spring-boot-starter-test\2.0.1.RELEASE\spring-boot-starter-test-2.0.1.RELEASE.jar;C:\Users\Moha
+mmed Othman\.m2\repository\org\springframework\boot\spring-boot-test\2.0.1.RELEASE\spring-boot-test-2.0.1.RELEASE.jar;C:\Users\Moha
+mmed Othman\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.0.1.RELEASE\spring-boot-test-autoconfigure-2.0
+.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar;C:\Users\Mohammed Ot
+hman\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\Mohammed Othman\.m2\repository\net\minidev\accessors-sma
+rt\1.2\accessors-smart-1.2.jar;C:\Users\Mohammed Othman\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\Mohammed Othman
+\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Mohammed Othman\.m2\repository\org\assertj\assertj-core\3.9.1\assertj-core
+-3.9.1.jar;C:\Users\Mohammed Othman\.m2\repository\org\mockito\mockito-core\2.15.0\mockito-core-2.15.0.jar;C:\Users\Mohammed Othman
+\.m2\repository\net\bytebuddy\byte-buddy\1.7.11\byte-buddy-1.7.11.jar;C:\Users\Mohammed Othman\.m2\repository\net\bytebuddy\byte-bu
+ddy-agent\1.7.11\byte-buddy-agent-1.7.11.jar;C:\Users\Mohammed Othman\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;
+C:\Users\Mohammed Othman\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Mohammed Othman\.m2\repositor
+y\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\Mohammed Othman\.m2\repository\org\skyscreamer\jsonassert\1.5
+.0\jsonassert-1.5.0.jar;C:\Users\Mohammed Othman\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\androi
+d-json-0.0.20131108.vaadin1.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\spring-core\5.0.5.RELEASE\spring-core-5
+.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\spring-jcl\5.0.5.RELEASE\spring-jcl-5.0.5.RELEASE.jar;
+C:\Users\Mohammed Othman\.m2\repository\org\springframework\spring-test\5.0.5.RELEASE\spring-test-5.0.5.RELEASE.jar;C:\Users\Mohamm
+ed Othman\.m2\repository\org\xmlunit\xmlunit-core\2.5.1\xmlunit-core-2.5.1.jar;C:\Users\Mohammed Othman\.m2\repository\org\springfr
+amework\boot\spring-boot-starter-security\2.0.1.RELEASE\spring-boot-starter-security-2.0.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2
+\repository\org\springframework\spring-aop\5.0.5.RELEASE\spring-aop-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\s
+pringframework\security\spring-security-config\5.0.4.RELEASE\spring-security-config-5.0.4.RELEASE.jar;C:\Users\Mohammed Othman\.m2\
+repository\org\springframework\security\spring-security-core\5.0.4.RELEASE\spring-security-core-5.0.4.RELEASE.jar;C:\Users\Mohammed
+ Othman\.m2\repository\org\springframework\security\spring-security-web\5.0.4.RELEASE\spring-security-web-5.0.4.RELEASE.jar;C:\User
+s\Mohammed Othman\.m2\repository\org\modelmapper\modelmapper\0.7.4\modelmapper-0.7.4.jar;, user.name=Mohammed Othman, java.vm.speci
+fication.version=1.8, sun.java.command=C:\Users\MOHAMM~1\AppData\Local\Temp\surefire4005754645151987923\surefirebooter1546866531793
+814909.jar C:\Users\Mohammed Othman\AppData\Local\Temp\surefire4005754645151987923 2018-10-29T01-22-14_526-jvmRun1 surefire76466644
+11038185435tmp surefire_07081561459261737848tmp, java.home=C:\Program Files\Java\jdk1.8.0_161\jre, sun.arch.data.model=64, user.lan
+guage=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version
+=1.8.0_161, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, sun.boot.class.path=C:\Progra
+m Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_16
+1\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\
+Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.
+8.0_161\jre\classes, java.vendor=Oracle Corporation, localRepository=C:\Users\Mohammed Othman\.m2\repository, file.separator=\, jav
+a.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=win
+dows, sun.cpu.isalist=amd64}}, SystemEnvironmentPropertySource@306206744 {name='systemEnvironment', properties={PATH=C:\oraclexe\ap
+p\oracle\product\11.2.0\server\bin;;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\
+WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\mysql-5.6.39-winx64\bin;C:\Program Files\nodejs\;C:\Program Files\a
+pache-maven-3.5.3\bin;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files
+ (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Microsoft
+ VS Code\bin;C:\Users\Mohammed Othman\AppData\Local\GitHubDesktop\bin;C:\Users\Mohammed Othman\AppData\Roaming\npm;C:\Users\Mohamme
+d Othman\AppData\Local\Microsoft\WindowsApps;;C:\Users\Mohammed Othman\AppData\Local\Programs\Microsoft VS Code\bin, USERDOMAIN_ROA
+MINGPROFILE=MOTHMAN-NB, PROCESSOR_LEVEL=6, SYSTEMDRIVE=C:, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITECT
+URE=AMD64, DRIVERDATA=C:\Windows\System32\Drivers\DriverData, =E:=E:\Code Training WorkSpace\OthmanTempWorkSpace\angularspringh2jpa
+, MAVEN_HOME=C:\Program Files\apache-maven-3.5.3\bin\.., PROGRAMFILES=C:\Program Files, PSMODULEPATH=C:\Program Files\WindowsPowerS
+hell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules, PROGRAMDATA=C:\ProgramData, USERNAME=Mohammed Othman, WDIR=E:\Code
+ Training WorkSpace\OthmanTempWorkSpace\angularspringh2jpa, FPS_BROWSER_USER_PROFILE_STRING=Default, ONEDRIVE=C:\Users\Mohammed Oth
+man\OneDrive, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, CLASSWORLDS_JAR="C:\Program Files\apache-maven-3.5.3\b
+in\..\boot\plexus-classworlds-2.5.2.jar", ECLIPSE_WORKSPACE=E:\Code Training WorkSpace\OthmanTempWorkSpace, WINDIR=C:\WINDOWS, HOME
+PATH=\Users\Mohammed Othman, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 9, GenuineIntel, M2_HOME=C:\Program Files\apa
+che-maven-3.5.3, PUBLIC=C:\Users\Public, LOCALAPPDATA=C:\Users\Mohammed Othman\AppData\Local, COMMONPROGRAMFILES(X86)=C:\Program Fi
+les (x86)\Common Files, USERDOMAIN=MOTHMAN-NB, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\MOTHMAN-NB, JAVA_HOM
+E=C:\Program Files\Java\jdk1.8.0_161, PROMPT=$P$G, PROGRAMFILES(X86)=C:\Program Files (x86), TERM=xterm, ERROR_CODE=0, EXEC_DIR=E:\
+Code Training WorkSpace\OthmanTempWorkSpace\angularspringh2jpa, APPDATA=C:\Users\Mohammed Othman\AppData\Roaming, PROGRAMW6432=C:\P
+rogram Files, SYSTEMROOT=C:\WINDOWS, ECLIPSE_HOME=C:\Users\Mohammed Othman\Downloads\Compressed\sts-bundle\sts-3.9.3.RELEASE, MAVEN
+_CMD_LINE_ARGS=clean package, OS=Windows_NT, COMMONPROGRAMW6432=C:\Program Files\Common Files, COMPUTERNAME=MOTHMAN-NB, COMMONPROGR
+AMFILES=C:\Program Files\Common Files, COMSPEC=C:\WINDOWS\system32\cmd.exe, JAVACMD=C:\Program Files\Java\jdk1.8.0_161\bin\java.exe
+, MAVEN_PROJECTBASEDIR=E:\Code Training WorkSpace\OthmanTempWorkSpace\angularspringh2jpa, PROCESSOR_REVISION=8e09, CLASSWORLDS_LAUN
+CHER=org.codehaus.plexus.classworlds.launcher.Launcher, TEMP=C:\Users\MOHAMM~1\AppData\Local\Temp, HOMEDRIVE=C:, USERPROFILE=C:\Use
+rs\Mohammed Othman, TMP=C:\Users\MOHAMM~1\AppData\Local\Temp, NUMBER_OF_PROCESSORS=4, JVMCONFIG=\.mvn\jvm.config}}]
+01:22:16.316 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved classpath location [co
+m/selftraining/demo/] to resources [URL [file:/E:/Code%20Training%20WorkSpace/OthmanTempWorkSpace/angularspringh2jpa/target/test-cl
+asses/com/selftraining/demo/], URL [file:/E:/Code%20Training%20WorkSpace/OthmanTempWorkSpace/angularspringh2jpa/target/classes/com/
+selftraining/demo/]]
+01:22:16.317 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources
+in directory tree [E:\Code Training WorkSpace\OthmanTempWorkSpace\angularspringh2jpa\target\test-classes\com\selftraining\demo]
+01:22:16.317 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [E:\Code Tr
+aining WorkSpace\OthmanTempWorkSpace\angularspringh2jpa\target\test-classes\com\selftraining\demo] for files matching pattern [E:/C
+ode Training WorkSpace/OthmanTempWorkSpace/angularspringh2jpa/target/test-classes/com/selftraining/demo/*.class]
+01:22:16.321 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Looking for matching resources
+in directory tree [E:\Code Training WorkSpace\OthmanTempWorkSpace\angularspringh2jpa\target\classes\com\selftraining\demo]
+01:22:16.322 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Searching directory [E:\Code Tr
+aining WorkSpace\OthmanTempWorkSpace\angularspringh2jpa\target\classes\com\selftraining\demo] for files matching pattern [E:/Code T
+raining WorkSpace/OthmanTempWorkSpace/angularspringh2jpa/target/classes/com/selftraining/demo/*.class]
+01:22:16.322 [main] DEBUG org.springframework.core.io.support.PathMatchingResourcePatternResolver - Resolved location pattern [clas
+spath*:com/selftraining/demo/*.class] to resources [file [E:\Code Training WorkSpace\OthmanTempWorkSpace\angularspringh2jpa\target\
+test-classes\com\selftraining\demo\Angularspringh2jpaApplicationTests.class], file [E:\Code Training WorkSpace\OthmanTempWorkSpace\
+angularspringh2jpa\target\classes\com\selftraining\demo\Angularspringh2jpaApplication.class]]
+01:22:16.444 [main] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate
+ component class: file [E:\Code Training WorkSpace\OthmanTempWorkSpace\angularspringh2jpa\target\classes\com\selftraining\demo\Angu
+larspringh2jpaApplication.class]
+01:22:16.448 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration c
+om.selftraining.demo.Angularspringh2jpaApplication for test class com.selftraining.demo.Angularspringh2jpaApplicationTests
+01:22:16.614 [main] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not
+present for class [com.selftraining.demo.Angularspringh2jpaApplicationTests]: using defaults.
+01:22:16.616 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionList
+ener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListene
+r, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs
+.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListe
+ner, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.bo
+ot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener
+, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support
+.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.spring
+framework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutio
+nListener]
+01:22:16.647 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [o
+rg.springframework.test.context.web.ServletTestExecutionListener@33c911a1, org.springframework.test.context.support.DirtiesContextB
+eforeModesTestExecutionListener@75db5df9, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@707194ba, org.spr
+ingframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@1190200a, org.springframework.test.context.
+support.DirtiesContextTestExecutionListener@6a2f6f80, org.springframework.test.context.transaction.TransactionalTestExecutionListen
+er@45b4c3a9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@399c4be1, org.springframework.boot.test.mock.moc
+kito.ResetMocksTestExecutionListener@291caca8, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3
+85e9564, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5b94b04d, org.sprin
+gframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@8c3b9d, org.springframework.boot.test
+.autoconfigure.web.servlet.WebDriverTestExecutionListener@4c39bec8]
+01:22:16.650 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null]
+ for test class [com.selftraining.demo.Angularspringh2jpaApplicationTests]
+01:22:16.651 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.spri
+ngframework.test.annotation.SystemProfileValueSource] for class [com.selftraining.demo.Angularspringh2jpaApplicationTests]
+01:22:16.652 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null]
+ for test class [com.selftraining.demo.Angularspringh2jpaApplicationTests]
+01:22:16.653 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.spri
+ngframework.test.annotation.SystemProfileValueSource] for class [com.selftraining.demo.Angularspringh2jpaApplicationTests]
+01:22:16.653 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null]
+ for test class [com.selftraining.demo.Angularspringh2jpaApplicationTests]
+01:22:16.653 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.spri
+ngframework.test.annotation.SystemProfileValueSource] for class [com.selftraining.demo.Angularspringh2jpaApplicationTests]
+01:22:16.659 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class:
+ context [DefaultTestContext@291b4bf5 testClass = Angularspringh2jpaApplicationTests, testInstance = [null], testMethod = [null], t
+estException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@2d2ffcb7 testClass = Angularspringh2jpaApplicati
+onTests, locations = '{}', classes = '{class com.selftraining.demo.Angularspringh2jpaApplication}', contextInitializerClasses = '[]
+', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.Spring
+BootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.context.filter.ExcludeFilterContextCusto
+mizer@5a4041cc, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer
+@4b53f538, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRest
+TemplateContextCustomizer@51b279c9, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.
+springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2f490758], resourceBasePath = 'src
+/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map[
+'org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContex
+t [false] with mode [null].
+01:22:16.660 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null]
+ for test class [com.selftraining.demo.Angularspringh2jpaApplicationTests]
+01:22:16.660 [main] DEBUG org.springframework.test.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.spri
+ngframework.test.annotation.SystemProfileValueSource] for class [com.selftraining.demo.Angularspringh2jpaApplicationTests]
+01:22:16.686 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding PropertySource 'systemProperties' with lowest s
+earch precedence
+01:22:16.687 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding PropertySource 'systemEnvironment' with lowest
+search precedence
+01:22:16.696 [main] DEBUG org.springframework.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [
+MapPropertySource@1760126453 {name='systemProperties', properties={java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.libr
+ary.path=C:\Program Files\Java\jdk1.8.0_161\jre\bin, java.vm.version=25.161-b12, java.vm.vendor=Oracle Corporation, java.vendor.url
+=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.country=
+US, user.script=, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=, java.vm.specification.name=Java Virtual Machine Specificatio
+n, user.dir=E:\Code Training WorkSpace\OthmanTempWorkSpace\angularspringh2jpa, java.runtime.version=1.8.0_161-b12, basedir=E:\Code
+Training WorkSpace\OthmanTempWorkSpace\angularspringh2jpa, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, java.endorsed.dir
+s=C:\Program Files\Java\jdk1.8.0_161\jre\lib\endorsed, os.arch=amd64, surefire.real.class.path=C:\Users\MOHAMM~1\AppData\Local\Temp
+\surefire4005754645151987923\surefirebooter1546866531793814909.jar, java.io.tmpdir=C:\Users\MOHAMM~1\AppData\Local\Temp\, line.sepa
+rator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 10, sun.jnu.encoding=Cp1256, java.library.path=C:
+\Program Files\Java\jdk1.8.0_161\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\oraclexe\app\oracle\product\11.2
+.0\server\bin;;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\Wind
+owsPowerShell\v1.0\;C:\Program Files\MySQL\mysql-5.6.39-winx64\bin;C:\Program Files\nodejs\;C:\Program Files\apache-maven-3.5.3\bin
+;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\NVIDIA Corpora
+tion\PhysX\Common;C:\Program Files\TortoiseSVN\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users
+\Mohammed Othman\AppData\Local\GitHubDesktop\bin;C:\Users\Mohammed Othman\AppData\Roaming\npm;C:\Users\Mohammed Othman\AppData\Loca
+l\Microsoft\WindowsApps;;C:\Users\Mohammed Othman\AppData\Local\Programs\Microsoft VS Code\bin;., surefire.test.class.path=E:\Code
+Training WorkSpace\OthmanTempWorkSpace\angularspringh2jpa\target\test-classes;E:\Code Training WorkSpace\OthmanTempWorkSpace\angula
+rspringh2jpa\target\classes;C:\Users\Mohammed Othman\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.0.1.REL
+EASE\spring-boot-starter-data-jpa-2.0.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\boot\spring-boot-st
+arter\2.0.1.RELEASE\spring-boot-starter-2.0.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\boot\spring-b
+oot\2.0.1.RELEASE\spring-boot-2.0.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\boot\spring-boot-autoco
+nfigure\2.0.1.RELEASE\spring-boot-autoconfigure-2.0.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\boot\
+spring-boot-starter-logging\2.0.1.RELEASE\spring-boot-starter-logging-2.0.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\ch\
+qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\Mohammed Othman\.m2\repository\ch\qos\logback\logback-core\1.2
+.3\logback-core-1.2.3.jar;C:\Users\Mohammed Othman\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.10.0\log4j-to-slf4j-2.1
+0.0.jar;C:\Users\Mohammed Othman\.m2\repository\org\apache\logging\log4j\log4j-api\2.10.0\log4j-api-2.10.0.jar;C:\Users\Mohammed Ot
+hman\.m2\repository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;C:\Users\Mohammed Othman\.m2\repository\org\yaml\snakeyam
+l\1.19\snakeyaml-1.19.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.0.1.RELEASE\sp
+ring-boot-starter-aop-2.0.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\aspectj\aspectjweaver\1.8.13\aspectjweaver-1.8.
+13.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\2.0.1.RELEASE\spring-boot-starter-
+jdbc-2.0.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\com\zaxxer\HikariCP\2.7.8\HikariCP-2.7.8.jar;C:\Users\Mohammed Othma
+n\.m2\repository\org\springframework\spring-jdbc\5.0.5.RELEASE\spring-jdbc-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repositor
+y\org\hibernate\hibernate-core\5.2.16.Final\hibernate-core-5.2.16.Final.jar;C:\Users\Mohammed Othman\.m2\repository\org\jboss\loggi
+ng\jboss-logging\3.3.2.Final\jboss-logging-3.3.2.Final.jar;C:\Users\Mohammed Othman\.m2\repository\org\hibernate\javax\persistence\
+hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar;C:\Users\Mohammed Othman\.m2\repository\org\javassist\javas
+sist\3.22.0-GA\javassist-3.22.0-GA.jar;C:\Users\Mohammed Othman\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\Mohammed
+Othman\.m2\repository\org\jboss\jandex\2.0.3.Final\jandex-2.0.3.Final.jar;C:\Users\Mohammed Othman\.m2\repository\com\fasterxml\cla
+ssmate\1.3.4\classmate-1.3.4.jar;C:\Users\Mohammed Othman\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Mohammed Othman
+\.m2\repository\org\hibernate\common\hibernate-commons-annotations\5.0.1.Final\hibernate-commons-annotations-5.0.1.Final.jar;C:\Use
+rs\Mohammed Othman\.m2\repository\javax\transaction\javax.transaction-api\1.2\javax.transaction-api-1.2.jar;C:\Users\Mohammed Othma
+n\.m2\repository\org\springframework\data\spring-data-jpa\2.0.6.RELEASE\spring-data-jpa-2.0.6.RELEASE.jar;C:\Users\Mohammed Othman\
+.m2\repository\org\springframework\data\spring-data-commons\2.0.6.RELEASE\spring-data-commons-2.0.6.RELEASE.jar;C:\Users\Mohammed O
+thman\.m2\repository\org\springframework\spring-orm\5.0.5.RELEASE\spring-orm-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\reposit
+ory\org\springframework\spring-context\5.0.5.RELEASE\spring-context-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\s
+pringframework\spring-tx\5.0.5.RELEASE\spring-tx-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\spri
+ng-beans\5.0.5.RELEASE\spring-beans-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-
+1.7.25.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\spring-aspects\5.0.5.RELEASE\spring-aspects-5.0.5.RELEASE.ja
+r;C:\Users\Mohammed Othman\.m2\repository\org\springframework\boot\spring-boot-starter-web\2.0.1.RELEASE\spring-boot-starter-web-2.
+0.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\boot\spring-boot-starter-json\2.0.1.RELEASE\spring-boot
+-starter-json-2.0.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.5\jackson-d
+atabind-2.9.5.jar;C:\Users\Mohammed Othman\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-
+2.9.0.jar;C:\Users\Mohammed Othman\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.5\jackson-core-2.9.5.jar;C:\Users\Moh
+ammed Othman\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.9.5\jackson-datatype-jdk8-2.9.5.jar;C:\Users\Moh
+ammed Othman\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.9.5\jackson-datatype-jsr310-2.9.5.jar;C:\Users
+\Mohammed Othman\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.9.5\jackson-module-parameter-names-2.
+9.5.jar;C:\Users\Mohammed Othman\.m2\repository\org\hibernate\validator\hibernate-validator\6.0.9.Final\hibernate-validator-6.0.9.F
+inal.jar;C:\Users\Mohammed Othman\.m2\repository\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar;C:\User
+s\Mohammed Othman\.m2\repository\org\springframework\spring-web\5.0.5.RELEASE\spring-web-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman
+\.m2\repository\org\springframework\spring-webmvc\5.0.5.RELEASE\spring-webmvc-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\reposi
+tory\org\springframework\spring-expression\5.0.5.RELEASE\spring-expression-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repositor
+y\com\h2database\h2\1.4.197\h2-1.4.197.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\boot\spring-boot-starter-tom
+cat\2.0.1.RELEASE\spring-boot-starter-tomcat-2.0.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\javax\annotation\javax.annot
+ation-api\1.3.2\javax.annotation-api-1.3.2.jar;C:\Users\Mohammed Othman\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\8.
+5.29\tomcat-embed-core-8.5.29.jar;C:\Users\Mohammed Othman\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\8.5.29\tomcat-emb
+ed-el-8.5.29.jar;C:\Users\Mohammed Othman\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.29\tomcat-embed-websock
+et-8.5.29.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\boot\spring-boot-starter-test\2.0.1.RELEASE\spring-boot-s
+tarter-test-2.0.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\boot\spring-boot-test\2.0.1.RELEASE\sprin
+g-boot-test-2.0.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.0.1
+.RELEASE\spring-boot-test-autoconfigure-2.0.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\com\jayway\jsonpath\json-path\2.4
+.0\json-path-2.4.0.jar;C:\Users\Mohammed Othman\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\Mohammed Othm
+an\.m2\repository\net\minidev\accessors-smart\1.2\accessors-smart-1.2.jar;C:\Users\Mohammed Othman\.m2\repository\org\ow2\asm\asm\5
+.0.4\asm-5.0.4.jar;C:\Users\Mohammed Othman\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Mohammed Othman\.m2\repository\
+org\assertj\assertj-core\3.9.1\assertj-core-3.9.1.jar;C:\Users\Mohammed Othman\.m2\repository\org\mockito\mockito-core\2.15.0\mocki
+to-core-2.15.0.jar;C:\Users\Mohammed Othman\.m2\repository\net\bytebuddy\byte-buddy\1.7.11\byte-buddy-1.7.11.jar;C:\Users\Mohammed
+Othman\.m2\repository\net\bytebuddy\byte-buddy-agent\1.7.11\byte-buddy-agent-1.7.11.jar;C:\Users\Mohammed Othman\.m2\repository\org
+\objenesis\objenesis\2.6\objenesis-2.6.jar;C:\Users\Mohammed Othman\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3
+.jar;C:\Users\Mohammed Othman\.m2\repository\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\Mohammed Othman\.m
+2\repository\org\skyscreamer\jsonassert\1.5.0\jsonassert-1.5.0.jar;C:\Users\Mohammed Othman\.m2\repository\com\vaadin\external\goog
+le\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframew
+ork\spring-core\5.0.5.RELEASE\spring-core-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\spring-jcl\
+5.0.5.RELEASE\spring-jcl-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\spring-test\5.0.5.RELEASE\sp
+ring-test-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\xmlunit\xmlunit-core\2.5.1\xmlunit-core-2.5.1.jar;C:\Users\
+Mohammed Othman\.m2\repository\org\springframework\boot\spring-boot-starter-security\2.0.1.RELEASE\spring-boot-starter-security-2.0
+.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\spring-aop\5.0.5.RELEASE\spring-aop-5.0.5.RELEASE.jar;C:
+\Users\Mohammed Othman\.m2\repository\org\springframework\security\spring-security-config\5.0.4.RELEASE\spring-security-config-5.0.
+4.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\security\spring-security-core\5.0.4.RELEASE\spring-securi
+ty-core-5.0.4.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\security\spring-security-web\5.0.4.RELEASE\sp
+ring-security-web-5.0.4.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\modelmapper\modelmapper\0.7.4\modelmapper-0.7.4.jar
+;, java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered
+Compilers, os.version=10.0, user.home=C:\Users\Mohammed Othman, user.timezone=Africa/Cairo, java.awt.printerjob=sun.awt.windows.WPr
+interJob, file.encoding=Cp1256, java.specification.version=1.8, java.class.path=E:\Code Training WorkSpace\OthmanTempWorkSpace\angu
+larspringh2jpa\target\test-classes;E:\Code Training WorkSpace\OthmanTempWorkSpace\angularspringh2jpa\target\classes;C:\Users\Mohamm
+ed Othman\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\2.0.1.RELEASE\spring-boot-starter-data-jpa-2.0.1.REL
+EASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\boot\spring-boot-starter\2.0.1.RELEASE\spring-boot-starter-2.0
+.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\boot\spring-boot\2.0.1.RELEASE\spring-boot-2.0.1.RELEASE
+.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\2.0.1.RELEASE\spring-boot-autoconfi
+gure-2.0.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\boot\spring-boot-starter-logging\2.0.1.RELEASE\s
+pring-boot-starter-logging-2.0.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-c
+lassic-1.2.3.jar;C:\Users\Mohammed Othman\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\Mohammed
+ Othman\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.10.0\log4j-to-slf4j-2.10.0.jar;C:\Users\Mohammed Othman\.m2\reposi
+tory\org\apache\logging\log4j\log4j-api\2.10.0\log4j-api-2.10.0.jar;C:\Users\Mohammed Othman\.m2\repository\org\slf4j\jul-to-slf4j\
+1.7.25\jul-to-slf4j-1.7.25.jar;C:\Users\Mohammed Othman\.m2\repository\org\yaml\snakeyaml\1.19\snakeyaml-1.19.jar;C:\Users\Mohammed
+ Othman\.m2\repository\org\springframework\boot\spring-boot-starter-aop\2.0.1.RELEASE\spring-boot-starter-aop-2.0.1.RELEASE.jar;C:\
+Users\Mohammed Othman\.m2\repository\org\aspectj\aspectjweaver\1.8.13\aspectjweaver-1.8.13.jar;C:\Users\Mohammed Othman\.m2\reposit
+ory\org\springframework\boot\spring-boot-starter-jdbc\2.0.1.RELEASE\spring-boot-starter-jdbc-2.0.1.RELEASE.jar;C:\Users\Mohammed Ot
+hman\.m2\repository\com\zaxxer\HikariCP\2.7.8\HikariCP-2.7.8.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\spring
+-jdbc\5.0.5.RELEASE\spring-jdbc-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\hibernate\hibernate-core\5.2.16.Final
+\hibernate-core-5.2.16.Final.jar;C:\Users\Mohammed Othman\.m2\repository\org\jboss\logging\jboss-logging\3.3.2.Final\jboss-logging-
+3.3.2.Final.jar;C:\Users\Mohammed Othman\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate
+-jpa-2.1-api-1.0.0.Final.jar;C:\Users\Mohammed Othman\.m2\repository\org\javassist\javassist\3.22.0-GA\javassist-3.22.0-GA.jar;C:\U
+sers\Mohammed Othman\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\Mohammed Othman\.m2\repository\org\jboss\jandex\2.0.
+3.Final\jandex-2.0.3.Final.jar;C:\Users\Mohammed Othman\.m2\repository\com\fasterxml\classmate\1.3.4\classmate-1.3.4.jar;C:\Users\M
+ohammed Othman\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Mohammed Othman\.m2\repository\org\hibernate\common\hibern
+ate-commons-annotations\5.0.1.Final\hibernate-commons-annotations-5.0.1.Final.jar;C:\Users\Mohammed Othman\.m2\repository\javax\tra
+nsaction\javax.transaction-api\1.2\javax.transaction-api-1.2.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\data\s
+pring-data-jpa\2.0.6.RELEASE\spring-data-jpa-2.0.6.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\data\spr
+ing-data-commons\2.0.6.RELEASE\spring-data-commons-2.0.6.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\sp
+ring-orm\5.0.5.RELEASE\spring-orm-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\spring-context\5.0.
+5.RELEASE\spring-context-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\spring-tx\5.0.5.RELEASE\spri
+ng-tx-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\spring-beans\5.0.5.RELEASE\spring-beans-5.0.5.R
+ELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\Mohammed Othman\.m2\rep
+ository\org\springframework\spring-aspects\5.0.5.RELEASE\spring-aspects-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\o
+rg\springframework\boot\spring-boot-starter-web\2.0.1.RELEASE\spring-boot-starter-web-2.0.1.RELEASE.jar;C:\Users\Mohammed Othman\.m
+2\repository\org\springframework\boot\spring-boot-starter-json\2.0.1.RELEASE\spring-boot-starter-json-2.0.1.RELEASE.jar;C:\Users\Mo
+hammed Othman\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.5\jackson-databind-2.9.5.jar;C:\Users\Mohammed Othman\
+.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\Mohammed Othman\.m2\repo
+sitory\com\fasterxml\jackson\core\jackson-core\2.9.5\jackson-core-2.9.5.jar;C:\Users\Mohammed Othman\.m2\repository\com\fasterxml\j
+ackson\datatype\jackson-datatype-jdk8\2.9.5\jackson-datatype-jdk8-2.9.5.jar;C:\Users\Mohammed Othman\.m2\repository\com\fasterxml\j
+ackson\datatype\jackson-datatype-jsr310\2.9.5\jackson-datatype-jsr310-2.9.5.jar;C:\Users\Mohammed Othman\.m2\repository\com\fasterx
+ml\jackson\module\jackson-module-parameter-names\2.9.5\jackson-module-parameter-names-2.9.5.jar;C:\Users\Mohammed Othman\.m2\reposi
+tory\org\hibernate\validator\hibernate-validator\6.0.9.Final\hibernate-validator-6.0.9.Final.jar;C:\Users\Mohammed Othman\.m2\repos
+itory\javax\validation\validation-api\2.0.1.Final\validation-api-2.0.1.Final.jar;C:\Users\Mohammed Othman\.m2\repository\org\spring
+framework\spring-web\5.0.5.RELEASE\spring-web-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\spring-
+webmvc\5.0.5.RELEASE\spring-webmvc-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\spring-expression\
+5.0.5.RELEASE\spring-expression-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\com\h2database\h2\1.4.197\h2-1.4.197.jar;
+C:\Users\Mohammed Othman\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\2.0.1.RELEASE\spring-boot-starter-tomca
+t-2.0.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\javax\annotation\javax.annotation-api\1.3.2\javax.annotation-api-1.3.2.
+jar;C:\Users\Mohammed Othman\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\8.5.29\tomcat-embed-core-8.5.29.jar;C:\Users\
+Mohammed Othman\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\8.5.29\tomcat-embed-el-8.5.29.jar;C:\Users\Mohammed Othman\.
+m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.29\tomcat-embed-websocket-8.5.29.jar;C:\Users\Mohammed Othman\.m2\
+repository\org\springframework\boot\spring-boot-starter-test\2.0.1.RELEASE\spring-boot-starter-test-2.0.1.RELEASE.jar;C:\Users\Moha
+mmed Othman\.m2\repository\org\springframework\boot\spring-boot-test\2.0.1.RELEASE\spring-boot-test-2.0.1.RELEASE.jar;C:\Users\Moha
+mmed Othman\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\2.0.1.RELEASE\spring-boot-test-autoconfigure-2.0
+.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\com\jayway\jsonpath\json-path\2.4.0\json-path-2.4.0.jar;C:\Users\Mohammed Ot
+hman\.m2\repository\net\minidev\json-smart\2.3\json-smart-2.3.jar;C:\Users\Mohammed Othman\.m2\repository\net\minidev\accessors-sma
+rt\1.2\accessors-smart-1.2.jar;C:\Users\Mohammed Othman\.m2\repository\org\ow2\asm\asm\5.0.4\asm-5.0.4.jar;C:\Users\Mohammed Othman
+\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\Mohammed Othman\.m2\repository\org\assertj\assertj-core\3.9.1\assertj-core
+-3.9.1.jar;C:\Users\Mohammed Othman\.m2\repository\org\mockito\mockito-core\2.15.0\mockito-core-2.15.0.jar;C:\Users\Mohammed Othman
+\.m2\repository\net\bytebuddy\byte-buddy\1.7.11\byte-buddy-1.7.11.jar;C:\Users\Mohammed Othman\.m2\repository\net\bytebuddy\byte-bu
+ddy-agent\1.7.11\byte-buddy-agent-1.7.11.jar;C:\Users\Mohammed Othman\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar;
+C:\Users\Mohammed Othman\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Mohammed Othman\.m2\repositor
+y\org\hamcrest\hamcrest-library\1.3\hamcrest-library-1.3.jar;C:\Users\Mohammed Othman\.m2\repository\org\skyscreamer\jsonassert\1.5
+.0\jsonassert-1.5.0.jar;C:\Users\Mohammed Othman\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\androi
+d-json-0.0.20131108.vaadin1.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\spring-core\5.0.5.RELEASE\spring-core-5
+.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\springframework\spring-jcl\5.0.5.RELEASE\spring-jcl-5.0.5.RELEASE.jar;
+C:\Users\Mohammed Othman\.m2\repository\org\springframework\spring-test\5.0.5.RELEASE\spring-test-5.0.5.RELEASE.jar;C:\Users\Mohamm
+ed Othman\.m2\repository\org\xmlunit\xmlunit-core\2.5.1\xmlunit-core-2.5.1.jar;C:\Users\Mohammed Othman\.m2\repository\org\springfr
+amework\boot\spring-boot-starter-security\2.0.1.RELEASE\spring-boot-starter-security-2.0.1.RELEASE.jar;C:\Users\Mohammed Othman\.m2
+\repository\org\springframework\spring-aop\5.0.5.RELEASE\spring-aop-5.0.5.RELEASE.jar;C:\Users\Mohammed Othman\.m2\repository\org\s
+pringframework\security\spring-security-config\5.0.4.RELEASE\spring-security-config-5.0.4.RELEASE.jar;C:\Users\Mohammed Othman\.m2\
+repository\org\springframework\security\spring-security-core\5.0.4.RELEASE\spring-security-core-5.0.4.RELEASE.jar;C:\Users\Mohammed
+ Othman\.m2\repository\org\springframework\security\spring-security-web\5.0.4.RELEASE\spring-security-web-5.0.4.RELEASE.jar;C:\User
+s\Mohammed Othman\.m2\repository\org\modelmapper\modelmapper\0.7.4\modelmapper-0.7.4.jar;, user.name=Mohammed Othman, java.vm.speci
+fication.version=1.8, sun.java.command=C:\Users\MOHAMM~1\AppData\Local\Temp\surefire4005754645151987923\surefirebooter1546866531793
+814909.jar C:\Users\Mohammed Othman\AppData\Local\Temp\surefire4005754645151987923 2018-10-29T01-22-14_526-jvmRun1 surefire76466644
+11038185435tmp surefire_07081561459261737848tmp, java.home=C:\Program Files\Java\jdk1.8.0_161\jre, sun.arch.data.model=64, user.lan
+guage=en, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version
+=1.8.0_161, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, sun.boot.class.path=C:\Progra
+m Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_16
+1\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\
+Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.
+8.0_161\jre\classes, java.vendor=Oracle Corporation, localRepository=C:\Users\Mohammed Othman\.m2\repository, file.separator=\, jav
+a.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=win
+dows, sun.cpu.isalist=amd64}}, SystemEnvironmentPropertySource@1864869682 {name='systemEnvironment', properties={PATH=C:\oraclexe\a
+pp\oracle\product\11.2.0\server\bin;;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:
+\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MySQL\mysql-5.6.39-winx64\bin;C:\Program Files\nodejs\;C:\Program Files\
+apache-maven-3.5.3\bin;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program File
+s (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\TortoiseSVN\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Microsof
+t VS Code\bin;C:\Users\Mohammed Othman\AppData\Local\GitHubDesktop\bin;C:\Users\Mohammed Othman\AppData\Roaming\npm;C:\Users\Mohamm
+ed Othman\AppData\Local\Microsoft\WindowsApps;;C:\Users\Mohammed Othman\AppData\Local\Programs\Microsoft VS Code\bin, USERDOMAIN_RO
+AMINGPROFILE=MOTHMAN-NB, PROCESSOR_LEVEL=6, SYSTEMDRIVE=C:, SESSIONNAME=Console, ALLUSERSPROFILE=C:\ProgramData, PROCESSOR_ARCHITEC
+TURE=AMD64, DRIVERDATA=C:\Windows\System32\Drivers\DriverData, =E:=E:\Code Training WorkSpace\OthmanTempWorkSpace\angularspringh2jp
+a, MAVEN_HOME=C:\Program Files\apache-maven-3.5.3\bin\.., PROGRAMFILES=C:\Program Files, PSMODULEPATH=C:\Program Files\WindowsPower
+Shell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules, PROGRAMDATA=C:\ProgramData, USERNAME=Mohammed Othman, WDIR=E:\Cod
+e Training WorkSpace\OthmanTempWorkSpace\angularspringh2jpa, FPS_BROWSER_USER_PROFILE_STRING=Default, ONEDRIVE=C:\Users\Mohammed Ot
+hman\OneDrive, PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC, CLASSWORLDS_JAR="C:\Program Files\apache-maven-3.5.3\
+bin\..\boot\plexus-classworlds-2.5.2.jar", ECLIPSE_WORKSPACE=E:\Code Training WorkSpace\OthmanTempWorkSpace, WINDIR=C:\WINDOWS, HOM
+EPATH=\Users\Mohammed Othman, PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 142 Stepping 9, GenuineIntel, M2_HOME=C:\Program Files\ap
+ache-maven-3.5.3, PUBLIC=C:\Users\Public, LOCALAPPDATA=C:\Users\Mohammed Othman\AppData\Local, COMMONPROGRAMFILES(X86)=C:\Program F
+iles (x86)\Common Files, USERDOMAIN=MOTHMAN-NB, FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer, LOGONSERVER=\\MOTHMAN-NB, JAVA_HO
+ME=C:\Program Files\Java\jdk1.8.0_161, PROMPT=$P$G, PROGRAMFILES(X86)=C:\Program Files (x86), TERM=xterm, ERROR_CODE=0, EXEC_DIR=E:
+\Code Training WorkSpace\OthmanTempWorkSpace\angularspringh2jpa, APPDATA=C:\Users\Mohammed Othman\AppData\Roaming, PROGRAMW6432=C:\
+Program Files, SYSTEMROOT=C:\WINDOWS, ECLIPSE_HOME=C:\Users\Mohammed Othman\Downloads\Compressed\sts-bundle\sts-3.9.3.RELEASE, MAVE
+N_CMD_LINE_ARGS=clean package, OS=Windows_NT, COMMONPROGRAMW6432=C:\Program Files\Common Files, COMPUTERNAME=MOTHMAN-NB, COMMONPROG
+RAMFILES=C:\Program Files\Common Files, COMSPEC=C:\WINDOWS\system32\cmd.exe, JAVACMD=C:\Program Files\Java\jdk1.8.0_161\bin\java.ex
+e, MAVEN_PROJECTBASEDIR=E:\Code Training WorkSpace\OthmanTempWorkSpace\angularspringh2jpa, PROCESSOR_REVISION=8e09, CLASSWORLDS_LAU
+NCHER=org.codehaus.plexus.classworlds.launcher.Launcher, TEMP=C:\Users\MOHAMM~1\AppData\Local\Temp, HOMEDRIVE=C:, USERPROFILE=C:\Us
+ers\Mohammed Othman, TMP=C:\Users\MOHAMM~1\AppData\Local\Temp, NUMBER_OF_PROCESSORS=4, JVMCONFIG=\.mvn\jvm.config}}]
+01:22:16.715 [main] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environme
+nt: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=-1}
+01:22:16.716 [main] DEBUG org.springframework.core.env.StandardEnvironment - Adding PropertySource 'Inlined Test Properties' with h
+ighest search precedence
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.0.1.RELEASE)
+
+2018-10-29 01:22:17.070  INFO 43932 --- [           main] c.s.d.Angularspringh2jpaApplicationTests : Starting Angularspringh2jpaApp
+licationTests on MOthman-NB with PID 43932 (started by Mohammed Othman in E:\Code Training WorkSpace\OthmanTempWorkSpace\angularspr
+ingh2jpa)
+2018-10-29 01:22:17.071  INFO 43932 --- [           main] c.s.d.Angularspringh2jpaApplicationTests : No active profile set, falling
+ back to default profiles: default
+2018-10-29 01:22:17.129  INFO 43932 --- [           main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework
+.web.context.support.GenericWebApplicationContext@7ae0a9ec: startup date [Mon Oct 29 01:22:17 EET 2018]; root of context hierarchy
+2018-10-29 01:22:19.097  INFO 43932 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.tran
+saction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionMan
+agementConfiguration$$EnhancerBySpringCGLIB$$fc70c475] is not eligible for getting processed by all BeanPostProcessors (for example
+: not eligible for auto-proxying)
+2018-10-29 01:22:19.416  INFO 43932 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-10-29 01:22:19.745  INFO 43932 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed
+.
+2018-10-29 01:22:19.817  INFO 43932 --- [           main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityM
+anagerFactory for persistence unit 'default'
+2018-10-29 01:22:19.849  INFO 43932 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing Persiste
+nceUnitInfo [
+        name: default
+        ...]
+2018-10-29 01:22:19.958  INFO 43932 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2
+.16.Final}
+2018-10-29 01:22:19.961  INFO 43932 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.propertie
+s not found
+2018-10-29 01:22:20.018  INFO 43932 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons
+ Annotations {5.0.1.Final}
+2018-10-29 01:22:20.185  INFO 43932 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.
+hibernate.dialect.H2Dialect
+2018-10-29 01:22:21.041  INFO 43932 --- [           main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import sc
+ript 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@7e7e962d'
+2018-10-29 01:22:21.046  INFO 43932 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerF
+actory for persistence unit 'default'
+2018-10-29 01:22:22.014  INFO 43932 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.i
+co] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-29 01:22:22.340  INFO 43932 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice:
+ org.springframework.web.context.support.GenericWebApplicationContext@7ae0a9ec: startup date [Mon Oct 29 01:22:17 EET 2018]; root o
+f context hierarchy
+2018-10-29 01:22:22.406  WARN 43932 --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is ena
+bled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view t
+o disable this warning
+2018-10-29 01:22:22.454  INFO 43932 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/cool-cars],met
+hods=[GET],consumes=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<com.selftraining.dto.Res
+ponseDTO> com.selftraining.controller.CarController.coolCars()
+2018-10-29 01:22:22.458  INFO 43932 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/find-car-by-id
+/{id}],methods=[GET],consumes=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<com.selftraini
+ng.dto.ResponseDTO> com.selftraining.controller.CarController.findCarById(int)
+2018-10-29 01:22:22.463  INFO 43932 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/secure/update-
+car],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<com.selftrainin
+g.dto.ResponseDTO> com.selftraining.controller.CarController.updateCar(com.selftraining.dto.CarDTO)
+2018-10-29 01:22:22.463  INFO 43932 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/secure/delete-
+car],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<com.selftrainin
+g.dto.ResponseDTO> com.selftraining.controller.CarController.deleteCar(com.selftraining.dto.CarDTO)
+2018-10-29 01:22:22.464  INFO 43932 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/secure/add-car
+],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<com.selftraining.d
+to.ResponseDTO> com.selftraining.controller.CarController.addCar(com.selftraining.dto.CarDTO)
+2018-10-29 01:22:22.467  INFO 43932 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto publi
+c org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure
+.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-10-29 01:22:22.467  INFO 43932 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[te
+xt/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicE
+rrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-29 01:22:22.528  INFO 43932 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**]
+onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-29 01:22:22.533  INFO 43932 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto han
+dler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-29 01:22:23.061  INFO 43932 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.spr
+ingframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManager
+IntegrationFilter@161d95c6, org.springframework.security.web.context.SecurityContextPersistenceFilter@35c8be21, org.springframework
+.security.web.header.HeaderWriterFilter@566c1e71, org.springframework.security.web.authentication.logout.LogoutFilter@38c460e8, org
+.springframework.security.web.authentication.www.BasicAuthenticationFilter@4b4a2fa8, org.springframework.security.web.savedrequest.
+RequestCacheAwareFilter@6bcdd6e4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@ddffa6c, org.
+springframework.security.web.authentication.AnonymousAuthenticationFilter@5203c80f, org.springframework.security.web.session.Sessio
+nManagementFilter@3d0d120b, org.springframework.security.web.access.ExceptionTranslationFilter@4af7dd6a, org.springframework.securi
+ty.web.access.intercept.FilterSecurityInterceptor@401788d5]
+0a9ec: startup date [Mon Oct 29 01:22:17 EET 2018]; root of context hierarchy
+2018-10-29 01:22:23.558  INFO 43932 --- [       Thread-2] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFacto
+2018-10-29 01:22:23.558  INFO 43932 --- [       Thread-2] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed dr
+2018-10-29 01:22:23.564  INFO 43932 --- [       Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initia
+2018-10-29 01:22:23.566  INFO 43932 --- [       Thread-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown comple
+[INFO]
+[INFO] Results:
+[INFO]
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO]
+[INFO]
+[INFO] --- maven-war-plugin:3.1.0:war (default-war) @ angularspringh2jpa ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [angularspringh2jpa] in [E:\Code Training WorkSpace\OthmanTempWorkSpace\angularspringh2jpa\target\angulars
+[INFO] Processing war project
+[INFO] Copying webapp resources [E:\Code Training WorkSpace\OthmanTempWorkSpace\angularspringh2jpa\src\main\webapp]
+[INFO] Webapp assembled in [456 msecs]
+[INFO] Building war: E:\Code Training WorkSpace\OthmanTempWorkSpace\angularspringh2jpa\target\angularspringh2jpa-0.0.1-SNAPSHOT.war
+[INFO]
+[INFO] --- spring-boot-maven-plugin:2.0.1.RELEASE:repackage (default) @ angularspringh2jpa ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 16.989 s
+[INFO] Finished at: 2018-10-29T01:22:27+02:00
+[INFO] ------------------------------------------------------------------------

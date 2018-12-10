@@ -1,0 +1,176 @@
+
+E:\Code Training WorkSpace\OthmanTempWorkSpace\angularspringh2jpa>
+E:\Code Training WorkSpace\OthmanTempWorkSpace\angularspringh2jpa>mvn spring-boot:run
+[INFO] Scanning for projects...
+[INFO]
+[INFO] ----------------< com.selftraining:angularspringh2jpa >-----------------
+[INFO] Building angularspringh2jpa 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO]
+[INFO] >>> spring-boot-maven-plugin:2.0.1.RELEASE:run (default-cli) > test-compile @ angularspringh2jpa >>>
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.1:resources (default-resources) @ angularspringh2jpa ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] Copying 0 resource
+[INFO]
+[INFO] --- maven-compiler-plugin:3.7.0:compile (default-compile) @ angularspringh2jpa ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:3.0.1:testResources (default-testResources) @ angularspringh2jpa ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory E:\Code Training WorkSpace\OthmanTempWorkSpace\angularspringh2jpa\src\test\resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.7.0:testCompile (default-testCompile) @ angularspringh2jpa ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] <<< spring-boot-maven-plugin:2.0.1.RELEASE:run (default-cli) < test-compile @ angularspringh2jpa <<<
+[INFO]
+[INFO]
+[INFO] --- spring-boot-maven-plugin:2.0.1.RELEASE:run (default-cli) @ angularspringh2jpa ---
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.0.1.RELEASE)
+
+2018-10-29 01:41:17.885  INFO 29980 --- [           main] c.s.demo.Angularspringh2jpaApplication   : Starting Angularspringh2jpaApp
+lication on MOthman-NB with PID 29980 (started by Mohammed Othman in E:\Code Training WorkSpace\OthmanTempWorkSpace\angularspringh2
+jpa)
+2018-10-29 01:41:17.891  INFO 29980 --- [           main] c.s.demo.Angularspringh2jpaApplication   : No active profile set, falling
+ back to default profiles: default
+2018-10-29 01:41:17.984  INFO 29980 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework
+.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@245499e7: startup date [Mon Oct 29 01:41:17 EET 2018];
+ root of context hierarchy
+2018-10-29 01:41:19.588  INFO 29980 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.tran
+saction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionMan
+agementConfiguration$$EnhancerBySpringCGLIB$$f9f27050] is not eligible for getting processed by all BeanPostProcessors (for example
+: not eligible for auto-proxying)
+2018-10-29 01:41:20.138  INFO 29980 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s
+): 8080 (http)
+2018-10-29 01:41:20.166  INFO 29980 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-10-29 01:41:20.170  INFO 29980 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apach
+e Tomcat/8.5.29
+2018-10-29 01:41:20.180  INFO 29980 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Na
+tive library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\
+Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\P
+rogramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\
+;C:\Program Files\MySQL\mysql-5.6.39-winx64\bin;C:\Program Files\nodejs\;C:\Program Files\apache-maven-3.5.3\bin;C:\Program Files\G
+it\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C
+:\Program Files\TortoiseSVN\bin;C:\Program Files\TortoiseGit\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\Mohammed Othman\Ap
+pData\Local\GitHubDesktop\bin;C:\Users\Mohammed Othman\AppData\Roaming\npm;C:\Users\Mohammed Othman\AppData\Local\Microsoft\Windows
+Apps;;C:\Users\Mohammed Othman\AppData\Local\Programs\Microsoft VS Code\bin;.]
+2018-10-29 01:41:20.278  INFO 29980 --- [ost-startStop-1] o.a.c.c.C.[.[.[/angularspringh2jpa]      : Initializing Spring embedded W
+ebApplicationContext
+2018-10-29 01:41:20.279  INFO 29980 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: in
+itialization completed in 2299 ms
+2018-10-29 01:41:20.483  INFO 29980 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEnco
+dingFilter' to: [/*]
+2018-10-29 01:41:20.484  INFO 29980 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMet
+hodFilter' to: [/*]
+2018-10-29 01:41:20.484  INFO 29980 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormCo
+ntentFilter' to: [/*]
+2018-10-29 01:41:20.484  INFO 29980 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContex
+tFilter' to: [/*]
+2018-10-29 01:41:20.484  INFO 29980 --- [ost-startStop-1] .s.DelegatingFilterProxyRegistrationBean : Mapping filter: 'springSecurit
+yFilterChain' to: [/*]
+2018-10-29 01:41:20.485  INFO 29980 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapp
+ed to [/]
+2018-10-29 01:41:20.665  INFO 29980 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2018-10-29 01:41:20.871  INFO 29980 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed
+.
+2018-10-29 01:41:20.950  INFO 29980 --- [           main] j.LocalContainerEntityManagerFactoryBean : Building JPA container EntityM
+anagerFactory for persistence unit 'default'
+2018-10-29 01:41:20.977  INFO 29980 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing Persiste
+nceUnitInfo [
+        name: default
+        ...]
+2018-10-29 01:41:21.099  INFO 29980 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.2
+.16.Final}
+2018-10-29 01:41:21.100  INFO 29980 --- [           main] org.hibernate.cfg.Environment            : HHH000206: hibernate.propertie
+s not found
+2018-10-29 01:41:21.145  INFO 29980 --- [           main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons
+ Annotations {5.0.1.Final}
+2018-10-29 01:41:21.262  INFO 29980 --- [           main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.
+hibernate.dialect.H2Dialect
+2018-10-29 01:41:22.048  INFO 29980 --- [           main] o.h.t.schema.internal.SchemaCreatorImpl  : HHH000476: Executing import sc
+ript 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@76440df2'
+2018-10-29 01:41:22.051  INFO 29980 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerF
+actory for persistence unit 'default'
+2018-10-29 01:41:22.675  INFO 29980 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.i
+co] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-29 01:41:22.954  INFO 29980 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice:
+ org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@245499e7: startup date [Mon Oct 29
+ 01:41:17 EET 2018]; root of context hierarchy
+2018-10-29 01:41:23.016  WARN 29980 --- [           main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is ena
+bled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view t
+o disable this warning
+2018-10-29 01:41:23.073  INFO 29980 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/secure/delete-
+car],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<com.selftrainin
+g.dto.ResponseDTO> com.selftraining.controller.CarController.deleteCar(com.selftraining.dto.CarDTO)
+2018-10-29 01:41:23.076  INFO 29980 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/find-car-by-id
+/{id}],methods=[GET],consumes=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<com.selftraini
+ng.dto.ResponseDTO> com.selftraining.controller.CarController.findCarById(int)
+2018-10-29 01:41:23.077  INFO 29980 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/secure/update-
+car],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<com.selftrainin
+g.dto.ResponseDTO> com.selftraining.controller.CarController.updateCar(com.selftraining.dto.CarDTO)
+2018-10-29 01:41:23.080  INFO 29980 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/secure/add-car
+],methods=[POST],consumes=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<com.selftraining.d
+to.ResponseDTO> com.selftraining.controller.CarController.addCar(com.selftraining.dto.CarDTO)
+2018-10-29 01:41:23.081  INFO 29980 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/demo/cool-cars],met
+hods=[GET],consumes=[application/json;charset=UTF-8]}" onto public org.springframework.http.ResponseEntity<com.selftraining.dto.Res
+ponseDTO> com.selftraining.controller.CarController.coolCars()
+2018-10-29 01:41:23.084  INFO 29980 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto publi
+c org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure
+.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-10-29 01:41:23.085  INFO 29980 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[te
+xt/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicE
+rrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-29 01:41:23.127  INFO 29980 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**]
+onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-29 01:41:23.127  INFO 29980 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto han
+dler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-29 01:41:23.667  INFO 29980 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: org.spr
+ingframework.security.web.util.matcher.AnyRequestMatcher@1, [org.springframework.security.web.context.request.async.WebAsyncManager
+IntegrationFilter@653525e, org.springframework.security.web.context.SecurityContextPersistenceFilter@469345d6, org.springframework.
+security.web.header.HeaderWriterFilter@4cd6e5f7, org.springframework.security.web.authentication.logout.LogoutFilter@437a903c, org.
+springframework.security.web.authentication.www.BasicAuthenticationFilter@10fd46a8, org.springframework.security.web.savedrequest.R
+equestCacheAwareFilter@4afe6bb7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@fed895d, org.s
+pringframework.security.web.authentication.AnonymousAuthenticationFilter@6af5fdb0, org.springframework.security.web.session.Session
+ManagementFilter@69b09513, org.springframework.security.web.access.ExceptionTranslationFilter@1061c221, org.springframework.securit
+y.web.access.intercept.FilterSecurityInterceptor@30fd0eff]
+2018-10-29 01:41:23.696  INFO 29980 --- [           main] .s.s.UserDetailsServiceAutoConfiguration :
+
+Using generated security password: 43c5c52a-807d-4b16-bf8b-63dab957ce82
+
+2018-10-29 01:41:23.782  INFO 29980 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX expo
+sure on startup
+2018-10-29 01:41:23.784  INFO 29980 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'dataSource' ha
+s been autodetected for JMX exposure
+2018-10-29 01:41:23.791  INFO 29980 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located MBean 'dataSource': re
+gistering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2018-10-29 01:41:23.858  INFO 29980 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 808
+0 (http) with context path '/angularspringh2jpa'
+2018-10-29 01:41:23.868  INFO 29980 --- [           main] c.s.demo.Angularspringh2jpaApplication   : Started Angularspringh2jpaAppl
+ication in 6.423 seconds (JVM running for 10.602)
+2018-10-29 01:42:32.234  INFO 29980 --- [       Thread-4] ConfigServletWebServerApplicationContext : Closing org.springframework.bo
+ot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@245499e7: startup date [Mon Oct 29 01:41:17 EET 2018]; ro
+ot of context hierarchy
+2018-10-29 01:42:32.245  INFO 29980 --- [       Thread-4] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed bean
+s on shutdown
+2018-10-29 01:42:32.248  INFO 29980 --- [       Thread-4] o.s.j.e.a.AnnotationMBeanExporter        : Unregistering JMX-exposed bean
+s
+2018-10-29 01:42:32.253  INFO 29980 --- [       Thread-4] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFacto
+ry for persistence unit 'default'
+2018-10-29 01:42:32.256  INFO 29980 --- [       Thread-4] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed dr
+op of schema as part of SessionFactory shut-down'
+2018-10-29 01:42:32.298  INFO 29980 --- [       Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initia
+ted...
+2018-10-29 01:42:32.304  INFO 29980 --- [       Thread-4] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown comple
+ted.
+Terminate batch job (Y/N)? y
+
+E:\Code Training WorkSpace\OthmanTempWorkSpace\angularspringh2jpa>
