@@ -2,6 +2,8 @@ package com.selftraining.dto;
 
 import java.io.Serializable;
 
+import org.springframework.stereotype.Component;
+
 public class ResponseDTO implements Serializable {
 
 	private static final long serialVersionUID = 1L;

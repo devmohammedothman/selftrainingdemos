@@ -13,6 +13,7 @@ import org.springframework.boot.web.servlet.server.ConfigurableServletWebServerF
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 import com.selftraining.dao.ICarRepository;
@@ -20,9 +21,10 @@ import com.selftraining.model.Car;
 
 
 @SpringBootApplication
-@ComponentScan (value = {"com.selftraining.controller","com.selftraining.services","com.selftraining.conf"})
+@ComponentScan (value = {"com.selftraining.controller","com.selftraining.services","com.selftraining.conf","com.selftraining.aspects"})
 @EntityScan ("com.selftraining.model")
 @EnableJpaRepositories ("com.selftraining.dao") 
+@EnableAspectJAutoProxy
 public class Angularspringh2jpaApplication extends SpringBootServletInitializer {
 
 	public static void main(String[] args) {
